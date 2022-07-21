@@ -15,3 +15,8 @@ md= client["mdb"]
 coll = md["test"]
 coll.insert_one(d)
 coll.insert_one(l)
+
+d= {
+    "name": "amit",
+    "surname": "Kumar",
+    "Email": "amit@theresource"
